@@ -4420,7 +4420,7 @@
 
     <!--C-RoM-->
 
-    <string name="userinterface_title">USER INTERFACE</string>
+    <string name="userinterface_title">C-RoM INTERFACE</string>
     <string name="customized_title">C-ROM Settings</string>
     <string name="themes_title">Themes</string>
     <string name="launcher_settings_title">Launcher</string>
