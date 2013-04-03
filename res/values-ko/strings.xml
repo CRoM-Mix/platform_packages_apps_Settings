@@ -1927,15 +1927,6 @@
    <!-- Stylus Icon -->
    <string name="stylus_icon_enabled_title">키보드를 사용할 때 아이콘 표시</string>
    <string name="stylus_icon_enabled_summary">입력할때 상단바에 입력 방법 선택 아이콘 표시</string>
-
-   <!-- About TeamBridge -->
-   <string name="title_about">이 롬에 대하여</string>
-   <string name="title_about_summary">팀을 알아보세요.</string>
-   <string name="devs">개발자</string>
-   <string name="contributors">도움을 주신 분들</string>
-   <string name="thinkingbridge">Team Bridge</string>
-   <string name="thinkingbridge_website_title">웹 사이트</string>
-   <string name="thinkingbridge_website_summary">tbridge.kr \n롬에대한 모든 뉴스를 여기서 보실 수 있습니다.</string>
    
    <!-- Partition info -->
    <string name="partition_info_title">파티션 정보</string>
