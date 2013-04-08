@@ -16,16 +16,13 @@
 
 package com.android.settings.slim;
 
-import android.app.ActivityManager;
+import android.util.Slog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.provider.Settings;
-import android.util.Slog;
 import android.widget.CompoundButton;
 import android.widget.Switch;
-
-import java.util.List;
 
 public class TRDSEnabler implements CompoundButton.OnCheckedChangeListener {
     private final Context mContext;
@@ -69,6 +66,8 @@ public class TRDSEnabler implements CompoundButton.OnCheckedChangeListener {
         // Handle a switch change
         Settings.Secure.putInt(mContext.getContentResolver(),
                 Settings.Secure.UI_INVERTED_MODE, isChecked ? 1 : 0);
+<<<<<<< HEAD
+=======
 
         ActivityManager am = (ActivityManager) mContext.getSystemService(Context.ACTIVITY_SERVICE);
         List<ActivityManager.RunningAppProcessInfo> pids = am.getRunningAppProcesses();
@@ -99,6 +98,7 @@ public class TRDSEnabler implements CompoundButton.OnCheckedChangeListener {
                     am.killBackgroundProcesses("com.google.android.youtube");
                }
            }
+>>>>>>> eb8de00... Settings: Add to be sure also some other apps for TRDS toggle
     }
 
 }
